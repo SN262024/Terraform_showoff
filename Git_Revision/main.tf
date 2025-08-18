@@ -20,3 +20,7 @@ resource "azurerm_resource_group" "India" {
   name     = "rg-India"
   location = "West Europe"
 }
+resource "azurerm_resource_group" "Australia" {
+  name     = "rg-Australia"
+  location = "centralus"
+}
