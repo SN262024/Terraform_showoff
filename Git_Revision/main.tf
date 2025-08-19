@@ -28,3 +28,7 @@ resource "azurerm_resource_group" "Japan" {
   name     = "rg-Japan"
   location = "centralus"
 }
+resource "azurerm_resource_group" "Ghana" {
+  name     = "rg-Ghana"
+  location = "centralus"
+}
